@@ -1,0 +1,41 @@
+[
+  {
+    "name": "1",
+    "age": 2,
+    "email": "112",
+    "username": "ali",
+    "password": "1212",
+    "role": "User"
+  },
+  {
+    "name": "1",
+    "age": 2,
+    "email": "112",
+    "username": "ali",
+    "password": "123",
+    "role": "Artist"
+  },
+  {
+    "name": "3337",
+    "age": 7,
+    "username": "hamid",
+    "password": "12121234567890",
+    "role": "User"
+  },
+  {
+    "name": "Havania",
+    "age": 16,
+    "email": "hnireshghi@gmail.com",
+    "username": "fart",
+    "password": "12345",
+    "role": "User"
+  },
+  {
+    "name": "Amir Hossein",
+    "age": 19,
+    "email": " -------- ",
+    "username": "sizhen",
+    "password": "1234567890",
+    "role": "Admin"
+  }
+]
