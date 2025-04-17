@@ -1,14 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
-</AnchorPane>
+<HBox prefHeight="500.0" prefWidth="943.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sbu.cs.demo.SongDetailsController">
+   <children>
+      <VBox prefHeight="500.0" prefWidth="710.0">
+         <HBox alignment="CENTER_LEFT" prefWidth="584.0" spacing="12.0">
+            <children>
+                <Label fx:id="titleLabel" style="-fx-font-size: 28px; -fx-font-weight: bold;" text="Title" wrapText="true" HBox.hgrow="ALWAYS">
+                  <font>
+                     <Font size="8.0" />
+                  </font>
+               </Label>
+                <Label fx:id="artistLabel" style="-fx-font-size: 20;" text="Artist" wrapText="true" HBox.hgrow="ALWAYS" />
+            </children>
+         </HBox>
+         <Separator prefHeight="10.0" prefWidth="584.0" />
+         <VBox>
+            <children>
+               <HBox alignment="CENTER">
+                  <children>
+                      <Label fx:id="albumLabel" style="-fx-font-size: 14;" text="Album: " textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                        <font>
+                           <Font size="10.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+               <HBox alignment="CENTER_LEFT">
+                  <children>
+                     <HBox HBox.hgrow="ALWAYS">
+                        <children>
+                           <Label fx:id="releasedLabel" prefHeight="17.0" style="-fx-font-size: 12;" text="Release date: " textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                              <font>
+                                 <Font size="10.0" />
+                              </font>
+                           </Label>
+                        </children>
+                     </HBox>
+                     <Label fx:id="viewLabel" alignment="BASELINE_RIGHT" style="-fx-font-size: 12;" text="Views: " textOverrun="CENTER_ELLIPSIS" wrapText="true">
+                        <font>
+                           <Font size="10.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+         <TextArea fx:id="songTextArea" editable="false" prefHeight="413.0" prefWidth="580.0" />
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <VBox prefHeight="500.0" prefWidth="372.0" HBox.hgrow="ALWAYS">
+         <children>
+            <ListView fx:id="commentList" editable="true" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+            <HBox alignment="CENTER_RIGHT" prefHeight="81.0" prefWidth="277.0">
+               <children>
+                  <TextArea fx:id="commentInput" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" onAction="#postComment" text="Button">
+                     <HBox.margin>
+                        <Insets left="8.0" right="8.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>
