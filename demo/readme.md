@@ -108,7 +108,7 @@ This is a JavaFX-based desktop application for managing music albums and songs. 
 
 ## Contributors
 
-- **Your Name** 
+- **Amir Hossein (SIZHEN) Goodarzi Zadeh** 
 - This is a personal project for practicing object-oriented programming concepts, but feel free to submit a pull request if you're interested.
 ---
 
