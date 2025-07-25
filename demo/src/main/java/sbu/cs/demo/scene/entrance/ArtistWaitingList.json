@@ -1,0 +1,91 @@
+[
+  {
+    "name": "wer",
+    "age": 12,
+    "email": "3456",
+    "username": "MINE",
+    "password": "1234567890",
+    "role": "Artist"
+  },
+  {
+    "name": "asdifuh",
+    "age": 123,
+    "email": "sdfih",
+    "username": "man",
+    "password": "1234567890",
+    "role": "Artist"
+  },
+  {
+    "name": "aausdg",
+    "age": 897,
+    "email": "ikshflasdf",
+    "username": "man",
+    "password": "123",
+    "role": "Artist"
+  },
+  {
+    "name": "QWE",
+    "age": 1,
+    "email": "SDF",
+    "username": "MAN",
+    "password": "123",
+    "role": "Artist"
+  },
+  {
+    "name": "7",
+    "age": 8,
+    "email": "9",
+    "username": "man",
+    "password": "123",
+    "role": "Artist"
+  },
+  {
+    "name": "7",
+    "age": 8,
+    "email": "9",
+    "username": "liahr",
+    "password": "123",
+    "role": "Artist"
+  },
+  {
+    "name": "asdasd",
+    "age": 98,
+    "email": "0",
+    "username": "sdf",
+    "password": "wsfasdf",
+    "role": "Artist"
+  },
+  {
+    "name": "8",
+    "age": 8,
+    "email": "9",
+    "username": "sdjkfh",
+    "password": "9090234",
+    "role": "Artist"
+  },
+  {
+    "name": "8",
+    "age": 7,
+    "email": "6",
+    "username": "8903749",
+    "password": "AOIFS",
+    "role": "Artist"
+  },
+  {
+    "name": "UIYHUI",
+    "age": 98,
+    "email": "G",
+    "username": "ADF",
+    "password": "UIGpiufa",
+    "role": "Artist"
+  },
+  {
+    "songs": [],
+    "name": "1",
+    "age": 2,
+    "email": "3",
+    "username": "asdgh",
+    "password": "IUADSFIODUSDFU",
+    "role": "Artist"
+  }
+]
